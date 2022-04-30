@@ -6,7 +6,7 @@ const path = require('path');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://usuario1:usuario1@devspot.0zo0f.mongodb.net/DevSpot?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://temp:temp@devspot.0zo0f.mongodb.net/DevSpot?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
