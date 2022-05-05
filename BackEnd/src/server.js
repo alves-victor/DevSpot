@@ -3,10 +3,11 @@ const cors = require('cors');
 const routes = require('./routes');
 const mongoose = require('mongoose');
 const path = require('path');
+require('dotenv').config();
 
 const app = express();
 
-mongoose.connect('mongodb+srv://temp:temp@devspot.0zo0f.mongodb.net/DevSpot?retryWrites=true&w=majority', {
+mongoose.connect(process.env.DB_CONNECTION, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
