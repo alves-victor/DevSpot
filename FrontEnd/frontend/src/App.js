@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './assets/devspot.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className='container'>
+      <img className='logo' src={logo} alt='DevSpot Logo' />
+
+      <div className='content'>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Ofereça <strong>Spots</strong> para programadores e encontre <strong>Talentos</strong> para sua empresa
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+        <form>
+          <label htmlFor="email">EMAIL *</label>
+          <input type="email" id="email" />
+          <button className='btn' type='submit'>Entrar</button>
+        </form>
+
+      </div>
+
+    </div>  
   );
 }
 
