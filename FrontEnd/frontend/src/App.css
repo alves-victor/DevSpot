@@ -63,6 +63,12 @@ body{
   margin-bottom: 8px;
 }
 
+.content form label span{
+  color: #888;
+  font-size: 12px;
+  font-weight: normal;
+}
+
 .content form input{
 	margin-bottom: 20px;
 	border: 1px solid #ddd;
