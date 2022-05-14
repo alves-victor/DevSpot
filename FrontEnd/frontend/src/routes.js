@@ -11,7 +11,7 @@ export default function Rotas(){
             <Routes>
                 <Route path="/" exact element = { <Login /> } />
                 <Route path="/dashboard" element = { <Dashboard /> } />
-                <Route path="/newspot" element = { <NewSpot />} /> 
+                <Route path="/newspot" element = { <NewSpot /> } /> 
             </Routes>
         </BrowserRouter>
     );
